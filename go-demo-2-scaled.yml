@@ -48,7 +48,7 @@ metadata:
     service: go-demo-2
     language: go
 spec:
-  replicas: 3
+  replicas: 5
   selector:
     matchLabels:
       type: api
